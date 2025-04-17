@@ -5,7 +5,7 @@ metadata:
   name: basic-cluster
   region: us-east-1
 
-managednodeGroups:
+managedNodeGroups:
   - name: expense
     instanceType: t3.micro
     desiredCapacity: 3
