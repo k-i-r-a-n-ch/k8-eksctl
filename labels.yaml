@@ -1,7 +1,11 @@
 apiVersion: v1
 kind: Pod 
 metadata: 
- name: pod-trail 
+  name: pod-with-labels
+  labels:
+    project: expense
+    module: backend
+    environment: dev
 spec: 
   containers:
   - name: nginx
